@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Macklin Text Regular;
+  src: url('MacklinText-Regular.otf');
+}
+@font-face {
+  font-family: Macklin Sans Regular;
+  src: url('MacklinSans-Regular.otf');
+}
+#myDiagramDiv {
+	background-color: rgb(105, 105, 105);
+	border: 1px solid black;
+	height: 800px;
+	position: relative;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	user-select: none;
+	touch-action: none;
+	width: 1054px;
+	height: 798px;
+	cursor: pointer;
+}
+#div1 {
+	position: absolute;
+	overflow: auto;
+	width: 1054px;
+	height: 798px;
+	z-index: 1;
+}
+#div2 {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+}
