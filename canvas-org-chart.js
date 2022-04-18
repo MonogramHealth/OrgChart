@@ -109,7 +109,10 @@ function init() {
 
   // This converter is used by the Picture.
   function findHeadShot(key) {
-	if (key < 0 || key > 16) return "BusinessMan.png"; // There are only 16 images on the server
+	if (key < 0 || key > 18) return "BusinessMan.png"; // There are only 16 images on the server
+	var g = myDiagram.model.findNodeDataForKey(key);
+	console.log(g.gender);
+	// if (get(gender) === "F") return "BusinessWoman.png";
 	return "BusinessMan" + key + ".png"
   }
 
