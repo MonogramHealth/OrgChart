@@ -1,10 +1,10 @@
 @font-face {
   font-family: Macklin Text Regular;
-  src: url('font/MacklinText-Regular.otf');
+  src: url('../font/MacklinText-Regular.otf');
 }
 @font-face {
   font-family: Macklin Sans Regular;
-  src: url('font/MacklinSans-Regular.otf');
+  src: url('../font/MacklinSans-Regular.otf');
 }
 #myDiagramDiv {
 	background-color: rgb(105, 105, 105);
