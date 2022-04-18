@@ -112,7 +112,8 @@ function init() {
 	  var data = myDiagram.model.findNodeDataForKey(key);
 	if (key < 0 || key > 18) return "img/BusinessMan.png"; // There are only 16 images on the server
 	if (data.gender === "F") return "img/BusinessWoman.png";
-	return key + ".png"
+	if (data.gender === "M") return "img/BusinessMan.png";
+	// return key + ".png"
   }
 
 		  // define the Node template
